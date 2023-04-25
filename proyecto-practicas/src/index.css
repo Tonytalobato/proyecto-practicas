@@ -7,7 +7,66 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  background-color: whitesmoke;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.principal {
+  text-align: center;
+  color: coral;
+}
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.a {
+  font-size: 1.5rem;
+  color: #2781db;
+  text-decoration: none;
+}
+.formulario {
+  width: 16%;
+  margin: 0 auto;
+  padding: 10rem 0;
+}
+
+.inputForm1 {
+  border-radius: 1rem;
+  padding: 1rem;
+  flex: 1;
+  font-size: 1rem;
+}
+.inputForm2 {
+  margin-left: 1px;
+  margin-top: 10px;
+  border-radius: 1rem;
+  padding: 1rem;
+  flex: 1;
+  font-size: 1rem;
+}
+.inputForm3 {
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 1rem;
+  padding: 1rem;
+  flex: 1;
+  font-size: 1rem;
+}
+.peForm {
+  color: crimson;
+}
+.react-calendar {
+  width: 350px;
+  max-width: 200%;
+  background: white;
+  border: 1px solid #a0a096;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
 }
