@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import 'react-calendar/dist/Calendar.css';
 import FiltrarServicios from "./filtrarServicios";
 import { useState } from "react";
-
+ 
 const ModalCitas = () => {
   const [filtro, setFiltro] = useState(null);
   const {
@@ -39,7 +39,7 @@ const ModalCitas = () => {
         placeholder="Código postal"
         {...register("correo", { required: true })}
       />
-      {errors.lastName && <p className="peForm">Este campo es obligatorio.</p>}
+      {errors.lastName && <p className="peForm">Este campo es ...</p>}
       <input className="inputForm3" type="submit" />
     </form>
   );
